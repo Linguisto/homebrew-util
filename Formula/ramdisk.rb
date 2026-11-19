@@ -5,7 +5,7 @@ class Ramdisk < Formula
   sha256 "63c86e6c3f0edec310c4c8681c6643952ddcd67500ec0b3b893aef0184af671e"
   license "MIT"
 
-  depends_on :macos
+  depends_on macos: :ventura
   depends_on "xz"
   depends_on "zstd"
 

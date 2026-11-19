@@ -7,6 +7,7 @@ Packages for macOS:
 
 The `ramdisk` package provides RAM disks and compressed image staging. The formula declares Homebrew `xz` and `zstd` dependencies and uses
 macOS-provided Bash, gzip, bzip2, and disk management tools.
+The `ramdisk` package requires macOS 13 Ventura or later.
 
 ## Install
 
