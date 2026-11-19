@@ -12,9 +12,12 @@ The `ramdisk` package requires macOS 13 Ventura or later.
 ## Install
 
 ```sh
-brew install Linguisto/util/free
-brew install Linguisto/util/ramdisk
+brew tap linguisto/util
+brew trust linguisto/util
+brew install linguisto/util/free linguisto/util/ramdisk
 ```
+
+The trust step permits Homebrew to use the formulae in this tap.
 
 ## Update and remove
 
