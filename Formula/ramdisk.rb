@@ -1,8 +1,8 @@
 class Ramdisk < Formula
   desc "Create RAM disks and decompress images directly into memory on macOS"
   homepage "https://github.com/Linguisto/ramdisk-macos"
-  url "https://github.com/Linguisto/ramdisk-macos/releases/download/v0.1.0/ramdisk-macos-0.1.0.tar.gz"
-  sha256 "63c86e6c3f0edec310c4c8681c6643952ddcd67500ec0b3b893aef0184af671e"
+  url "https://github.com/Linguisto/ramdisk-macos/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "559e6805a02f021128d4c4ca22add5eb6e0bb6d5f4f27d33d687683aa26ea437"
   license "MIT"
 
   depends_on macos: :ventura
